@@ -22,11 +22,11 @@ To run the code, you'll need to have the following dependencies installed:
 - `matplotlib`
 - `numpy`
 - `rioxarray`
-- `geopandas`
-- `planetary_computer` (for accessing satellite imagery)
+- `planetary_computer` (for accessing mmicrosoft hosted satellite imagery)
+- `pytorch`
 
 Install the required packages using `pip`:
 
 ```bash
-pip install xarray dask[complete] stackstac matplotlib numpy rioxarray planetary_computer
+pip install xarray dask[complete] stackstac matplotlib numpy rioxarray planetary_computer pytorch
 ```
